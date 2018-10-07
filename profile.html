@@ -1,0 +1,373 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>
+            World Scholars
+        </title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/animate.min.css" rel="stylesheet">
+        <link href="css/lightbox.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
+        <link rel="shortcut icon" href="images/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111625545-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-111625545-1');
+        </script>
+
+        <script type="text/javascript" src="aws_js/vendor/jquery-3.1.0.js">
+        </script>
+        <script type="text/javascript" src="aws_js/vendor/bootstrap.min.js">
+        </script>
+        <script type="text/javascript" src="aws_js/vendor/aws-cognito-sdk.min.js">
+        </script>
+        <script type="text/javascript" src="aws_js/vendor/amazon-cognito-identity.min.js">
+        </script>
+        <script type="text/javascript" src="aws_js/config.js">
+        </script>
+        <script type="text/javascript" src="aws_js/cognito-auth.js">
+        </script>
+        <script type="text/javascript" src="aws_js/profile.js">
+        </script>
+    </head>
+    <body>
+        <header id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 overflow">
+                        <div class="social-icons pull-right">
+                            <ul class="nav nav-pills">
+                                <li>
+                                    <a href="https://www.facebook.com/worldscholarsllc/">
+                                        <i class="fa fa-facebook">
+                                        </i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/world_scholars">
+                                        <i class="fa fa-twitter">
+                                        </i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar navbar-inverse">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">
+                                Toggle navigation
+                            </span>
+                            <span class="icon-bar">
+                            </span>
+                            <span class="icon-bar">
+                            </span>
+                            <span class="icon-bar">
+                            </span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">
+                            <h1>
+                                <img src="images/logo.png" alt="logo" width="18%">
+                            </h1>
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <a href="index.html">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="about.html">
+                                    About
+                                </a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="programs.html">
+                                    Programs
+                                    <i class="fa fa-angle-down">
+                                    </i>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        Upcoming
+                                    </li>
+                                    <li>
+                                        <a href="Aug2018.html">
+                                            SAT+ 2018
+                                        </a>
+                                    </li>
+                                    <li>
+                                        Past
+                                    </li>
+                                    <li>
+                                        <a href="February2018.html">
+                                            Intercultural Exchange through the Lens of Liberal Arts
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="Aug2017.html">
+                                            SAT+ 2017
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="Feb2017.html">
+                                            Young Undergraduates Overseas Immersion Program
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="May2016.html">
+                                            World Scholars in Korea
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="faq.html">
+                                    FAQ
+                                </a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="profile.html">
+                                    Profile
+                                    <i class="fa fa-angle-down">
+                                    </i>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="profile.html">
+                                            My Exams
+                                        </a>
+                                    </li>
+                                    <li id="signOut">
+                                        <a href="#">
+                                            Sign out
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section id="Profile" class="wow fadeInUp" data-wow-duration="400ms">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <h1 class="margin-bottom">
+                            Your account
+                        </h1>
+                        <p id="username">
+                            
+                        </p>
+                        <p class="alert alert-info">
+                            Last day of world scholars! New students, please take the following survey: 
+                            <a href="https://tccolumbia.qualtrics.com/jfe/form/SV_eEdYpMKnmRKfgUt">
+                                https://tccolumbia.qualtrics.com/jfe/form/SV_eEdYpMKnmRKfgUt
+                            </a>
+                        </p>
+                        <p class="alert alert-info">
+                            Two week students, please take the following survey: 
+                            <a href="https://tccolumbia.qualtrics.com/jfe/form/SV_bjy9bkujBdmY2Fv">
+                                https://tccolumbia.qualtrics.com/jfe/form/SV_bjy9bkujBdmY2Fv
+                            </a>
+                        </p>
+                        <p>
+                            If you haven&#39;t already done so, please 
+                            <a href="https://www.fitbit.com/oauth2/authorize?client_id=22CYBG&amp;response_type=token&amp;scope=activity%20nutrition%20heartrate%20location%20nutrition%20profile%20settings%20sleep%20social%20weight&amp;expires_in=31536000">
+                                grant us permissions to you FitBit data.
+                            </a>
+                            This will allow us to make cool graphs for you. Just follow the link, select &quot;Allow All&quot; (you may need to de-select and select again) and click &quot;Allow&quot;.
+                        </p>
+                        <p>
+                            Take 
+                            <a href="/scantron.html?tNum=3">
+                                Practice Test #3
+                            </a>
+                        </p>
+                        <p>
+                            Take 
+                            <a href="/scantron.html?tNum=4">
+                                Practice Test #4
+                            </a>
+                        </p>
+                        <p>
+                            Take 
+                            <a href="/scantron.html?tNum=5">
+                                Practice Test #5
+                            </a>
+                        </p>
+                        <p>
+                            Take 
+                            <a href="/scantron.html?tNum=6">
+                                Practice Test #6
+                            </a>
+                        </p>
+                        <h2>
+                            Your past Exams
+                        </h2>
+                        <table class="answer-table">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        Exam Number
+                                    </th>
+                                    <th>
+                                        Submission Time
+                                    </th>
+                                    <th>
+                                        Link to results
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center bottom-separator">
+                        <img src="images/home/under.png" class="img-responsive inline" alt="">
+                    </div>
+                    <div class="col-md-1 col-sm-1">
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="testimonial bottom">
+                            <h2>
+                                Testimonial
+                            </h2>
+                            <div class="media">
+                                <div class="pull-left">
+                                    <a href="#">
+                                        <img src="images/headshots/Han.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <blockquote>
+                                        After a week-long seminar from the World Scholars, I saw a renewed passion for learning on campus for months.
+                                    </blockquote>
+                                    <h3>
+                                        <a href="#">
+                                            - President Han, Geumgang University
+                                        </a>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-sm-5">
+                        <div class="contact-info bottom">
+                            <h2>
+                                Contact Us
+                            </h2>
+                            <address>
+                                E-mail:
+                                <a href="mailto:fiona@worldscholars.global">
+                                    fiona@worldscholars.global
+                                </a>
+                                <br>
+                                Phone: +1 (413) 949 2073
+                                <br>
+                            </address>
+                            <h2>
+                                Address
+                            </h2>
+                            <address>
+                                225 E 110th, Suite C
+                                <br>
+                                New York, NY
+                                <br>
+                                United States of America
+                                <br>
+                            </address>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="copyright-text text-center">
+                            <p>
+                                World Scholars, LLC 2018. All Rights Reserved.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script type="text/javascript" src="js/jquery.js">
+        </script>
+        <script type="text/javascript" src="js/bootstrap.min.js">
+        </script>
+        <script type="text/javascript" src="js/lightbox.min.js">
+        </script>
+        <script type="text/javascript" src="js/wow.min.js">
+        </script>
+        <script type="text/javascript" src="js/jquery.countTo.js">
+        </script>
+        <script type="text/javascript" src="js/main.js">
+        </script>
+        <script type="text/javascript" src="js/sisyphus.js">
+        </script>
+        <script type="text/javascript">
+            $( function() { $( "form" ).sisyphus(); });
+        </script>
+        <script type="text/javascript">
+            var getUrlParameter = function getUrlParameter(sParam) {
+  sPageURL = decodeURIComponent(window.location.search.substring(1));
+  return getUrlData(sParam,sPageURL);
+}
+
+var getUrlFitbit = function getUrlFitbit(sParam) {
+  sPageURL = decodeURIComponent(window.location.hash.substring(1));
+  return getUrlData(sParam,sPageURL);
+}
+
+var getUrlData = function getUrlData(sParam,sPageURL) {
+    var sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+
+        if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined ? true : sParameterName[1];
+        }
+    }
+};
+
+function uuidv4() {
+  return ([1e7]+-1e3+-4e3+-8e3+-1e11).replace(/[018]/g, c =>
+    (c ^ crypto.getRandomValues(new Uint8Array(1))[0] & 15 >> c / 4).toString(16)
+  )
+}
+
+
+function readISODateString(d) {
+  return (new Date(d)).toString();
+}
+
+        </script>
+    </body>
+</html>
